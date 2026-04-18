@@ -4,9 +4,9 @@ pipeline {
  
 		stage('Run Script') { 
 			steps { 	
-				sh '"C:\Users\Public\project\tp04_2\number_signe.py" 5' 
-				sh '"C:\Users\Public\project\tp04_2\number_signe.py" -3'
-				sh '"C:\Users\Public\project\tp04_2\number_signe.py" 0'
+				sh '"C:\Program Files\Python313\python.exe" "C:\Users\Public\project\tp04_2\number_signe.py" 5' 
+				sh '"C:\Program Files\Python313\python.exe" "C:\Users\Public\project\tp04_2\number_signe.py" -3'
+				sh '"C:\Program Files\Python313\python.exe" "C:\Users\Public\project\tp04_2\number_signe.py" 0'
 			} 
 		} 
 	} 
