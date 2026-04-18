@@ -4,9 +4,9 @@ pipeline {
  
 		stage('Test Cases') { 
 			steps { 	
-				bat ' "C:\Users\Public\project\tp04_2\number_signe.py" 5' 
-				bat ' "C:\Users\Public\project\tp04_2\number_signe.py" -3'
-				bat '"C:\Users\Public\project\tp04_2\number_signe.py" 0'
+				bat ' "C:\Program Files\Python313\python.exe" "C:\Users\Public\project\tp04_2\number_signe.py" 5' 
+				bat '"C:\Program Files\Python313\python.exe" "C:\Users\Public\project\tp04_2\number_signe.py" -3'
+				bat '"C:\Program Files\Python313\python.exe" "C:\Users\Public\project\tp04_2\number_signe.py" 0'
 			} 
 		} 
 	} 
